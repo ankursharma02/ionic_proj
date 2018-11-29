@@ -1,0 +1,26 @@
+
+<ion-header>
+  <ion-toolbar  color="dark">
+  <ion-title text-end>
+ Create Account
+  </ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content  class = "Background">    
+<div >
+      <ion-img  src="assets/imgs/AlThing_Logo.svg">
+      </ion-img>
+      
+     
+       <ion-label class="lab1" >Please enter your  UserName</ion-label>     
+      <ion-input class="userinput" [(ngModel)]="name1"  type="text" placeholder="UserName..."></ion-input>
+      <button   (click)="demo1()" ion-button full>
+       NEXT
+      </button><br/>
+      <a class="forg_usrnm">I forgot my UserName </a>
+      <span class="errorMsg"></span> 
+   
+  </div>
+</ion-content>
+  
+ 
